@@ -1,0 +1,1 @@
+# Divide every number in an array by 2
