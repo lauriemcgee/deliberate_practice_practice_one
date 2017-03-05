@@ -21,11 +21,13 @@ end
 
 single_numbers = [8, 12, 3, 24, 18, 16, 38, 74, 12, 33, 74, 16]
 index_number = 0
+doubled_numbers = []
 single_numbers.each do |number|
   if index_number.odd?
-    number = number * 2
+    number = number * 2.to_f
   end
   index_number += 1
+  doubled_numbers << number
 end
 
-p single_numbers
+p doubled_numbers
