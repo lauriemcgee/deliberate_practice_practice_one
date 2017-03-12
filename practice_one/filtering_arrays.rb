@@ -60,3 +60,58 @@ end
 
 p i_words
 
+# Filter a list of strings to only show strings that contain the letter "i"
+string_of_words = ["aligator", "crocodile", "eagle", "raisin", "skittles", "apple", "elephant", "lollipop"]
+i_words = []
+string_of_words.each do |word|
+  word = word.split(", ")
+  word.each do |string|
+    if string.include?("i")
+      i_words << string.to_s
+    end
+  end
+end
+
+p i_words
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
